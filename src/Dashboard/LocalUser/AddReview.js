@@ -30,7 +30,7 @@ const AddReview = () => {
         }).then((res) => res.json())
             .then(data => {
                 if (data.acknowledged) {
-                    swal("Review Added!", "Wanna see Go to Home Page!", "success");
+                    swal("Review Added!", "Go to Home Page!", "success");
                     history.push('/');
                 } else {
                     swal("Unsuccessful !", "Review is not added to the database!", "error");
@@ -44,7 +44,7 @@ const AddReview = () => {
             <form className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10 mt-6" onSubmit={handleSubmit}>
                 {/* title and description  */}
                 <div className="flex flex-col space-y-4">
-                    <Label htmlFor="name" text="Customer name" />
+                    <Label htmlFor="name" text="Job Applicant Name" />
                     <TextField
                         id="title"
                         type="text"

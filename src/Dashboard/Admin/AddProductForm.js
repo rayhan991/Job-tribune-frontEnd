@@ -35,7 +35,7 @@ const AddProductForm = () => {
         }).then((res) => res.json())
             .then(data => {
                 if (data.acknowledged) {
-                    swal("Spot Added!", "Job Vacance  added to the database!", "success");
+                    swal("Job Added!", "Job Vacance  added to the database!", "success");
                     history.push('/');
                 } else {
                     swal("Unsuccessful !", "Job Vacance  not added to the database!", "error");

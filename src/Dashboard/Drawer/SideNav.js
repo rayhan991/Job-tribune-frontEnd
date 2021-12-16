@@ -33,25 +33,25 @@ const SideNav = () => {
         }
     })
 
-    const menux =
-        [
-            // { id: 1, text: 'Dashboard', to: "/dashboard },
-            // { id: 1, text: 'Pay', to: "/dashboard/pay" },
-            { id: 2, text: 'All My Apply', to: "/dashboard/manage-my-order" },
-            { id: 3, text: 'Add Review', to: "/dashboard/addReview" },
 
-        ]
 
     const menuy =
         [
             // { id: 1, text: 'Dashboard', to: "/dashboard },
-            // { id: 1, text: 'Manage All Candit', to: "/dashboard/manage-products" },
+            // { id: 1, text: 'Manage All job', to: "/dashboard/manage-products" },
             { id: 2, text: 'Add New Job', to: "/dashboard/add" },
             { id: 3, text: 'Make Admin', to: "/dashboard/makeAdmin" },
 
 
         ]
+    const menux =
+        [
+            // { id: 1, text: 'Dashboard', to: "/dashboard },
+            // { id: 1, text: 'Pay', to: "/dashboard/pay" },
+            // { id: 2, text: 'All My Apply', to: "/dashboard/manage-my-order" },
+            { id: 3, text: 'Add Review', to: "/dashboard/addReview" },
 
+        ]
     return (
         <div>
 

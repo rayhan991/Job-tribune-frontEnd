@@ -33,7 +33,7 @@ const Navbar = () => {
                 {user.displayName ? (
                     <>
                         <div className="flex items-center justify-end space-x-4">
-                            <NavLink to="/explore" className="text-white">Explore</NavLink>
+                            <NavLink to="/" className="text-white">Home</NavLink>
                             <NavLink to="/dashboard" className="text-white">Dashboard</NavLink>
                             <img src={user?.photoURL} alt={user.displayName} className="w-10 h-10 rounded-full" />
                             <p className="poppins hidden md:block lg:block">{user.displayName}</p>

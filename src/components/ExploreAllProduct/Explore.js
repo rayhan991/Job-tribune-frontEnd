@@ -24,7 +24,7 @@ const Explore = () => {
 
                 {/* spot Menu tab  */}
                 <div className="flex items-center justify-center space-x-6 mt-20">
-                    <Heading text="Explore All Bike" />
+                    <Heading text="Explore All Job News" />
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10 mt-12">
                     {products?.map(item => (

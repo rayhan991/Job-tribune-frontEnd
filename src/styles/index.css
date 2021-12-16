@@ -28,19 +28,19 @@ body::-webkit-scrollbar {
   font-family: 'Poppins', sans-serif;
 }
 .bg-primary {
-  background: #ea611b
+  background: #0caa41
 ;
 }
 .bg-primary-dark {
-  background: #ea611b
+  background: #0caa41
   ;
 }
 .text-primary {
-  color: #ea611b
+  color: #0caa41
 ;
 }
 .border-primary {
-  border: 1px solid #ea611b
+  border: 1px solid #0caa41
 ;
 }
 

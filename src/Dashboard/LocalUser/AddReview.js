@@ -21,7 +21,7 @@ const AddReview = () => {
         const newReview = { customerName, description, rating }
 
         //POST 
-        fetch("http://localhost:5000/review", {
+        fetch("https://whispering-retreat-71950.herokuapp.com/review", {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

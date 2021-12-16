@@ -26,7 +26,7 @@ const AddProductForm = () => {
         const newSpot = { name, description, tagline, image, rating, location, type, applyLink }
 
         //POST 
-        fetch("http://localhost:5000/products", {
+        fetch("https://whispering-retreat-71950.herokuapp.com/products", {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

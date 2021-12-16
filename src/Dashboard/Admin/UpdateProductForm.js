@@ -11,7 +11,7 @@ const UpdateProductForm = () => {
     const history = useHistory();
     const { user } = useAuth();
     useEffect(() => {
-        fetch(`http://localhost:5000/orders/${id}`)
+        fetch(`https://whispering-retreat-71950.herokuapp.com/orders/${id}`)
             .then(res => res.json())
             .then(data => setUser(data));
     }, [id])
@@ -39,7 +39,7 @@ const UpdateProductForm = () => {
         const updateSpot = { bikeName, name, email, phone }
 
         //update 
-        fetch(`http://localhost:5000/orders/${id}`, {
+        fetch(`https://whispering-retreat-71950.herokuapp.com/orders/${id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json',

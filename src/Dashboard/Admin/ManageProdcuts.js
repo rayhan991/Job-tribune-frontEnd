@@ -15,7 +15,7 @@ const ManageProdcuts = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure want to Delete')
         if (proceed) {
-            const url = `http://localhost:5000/orders/${id}`;
+            const url = `https://whispering-retreat-71950.herokuapp.com/orders/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

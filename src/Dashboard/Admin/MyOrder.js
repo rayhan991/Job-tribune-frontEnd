@@ -19,7 +19,7 @@ const MyOrder = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure want to Delete')
         if (proceed) {
-            const url = `http://localhost:5000/orders/${id}`;
+            const url = `https://whispering-retreat-71950.herokuapp.com/orders/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
@@ -37,7 +37,7 @@ const MyOrder = () => {
     const handleUpdate = (id) => {
         const newStatus = { status: 'Pending' }
         setStatus(newStatus);
-        fetch(`http://localhost:5000/orders/${id}`, {
+        fetch(`https://whispering-retreat-71950.herokuapp.com/orders/${id}`, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
